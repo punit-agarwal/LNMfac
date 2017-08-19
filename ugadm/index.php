@@ -69,11 +69,8 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                   
                   <p>               
                 
-                    <input type="submit" name="Submit" value="Enter to generate OTP" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;btnSubmit&quot;, &quot;&quot;, true, &quot;login&quot;, &quot;&quot;, false, false))" id="btnSubmit" class="btn btn-info margin-r-5" />
-
+                    <input type="submit" name="btnSubmit" value="Enter to generate OTP" onclick=" location.href = 'otp-request.html';" id="btnSubmit" class="btn btn-info margin-r-5" />
                 </form>
-                <span></span>
-                <span class="pull-right"><a data-toggle="modal" href="#myModal">Didn't recieve the OTP? Click here to resend.</a></span>
                 
                 <p>
             </div>
