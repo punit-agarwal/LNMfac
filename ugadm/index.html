@@ -54,11 +54,11 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
             <div class="form-signin">
                 <span id="reauth-email" class="reauth-email"></span>
 
-                <input name="txtAppid" type="text" maxlength="20" id="txtAppid" tabindex="1" class="form-control" placeholder="LNMIIT Official Mail id" />
+                <input name="txtAppid" type="text" maxlength="35" id="txtAppid" tabindex="1" class="form-control" placeholder="LNMIIT Official Mail id" />
                 
                 <p>
                 
-                <input type="submit" name="btnSubmit" value="Enter to generate OTP" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;btnSubmit&quot;, &quot;&quot;, true, &quot;login&quot;, &quot;&quot;, false, false))" id="btnSubmit" class="btn btn-info margin-r-5" />
+                <input type="submit" name="btnSubmit" value="Enter to generate OTP" onclick=" location.href = 'otp-request.html';" id="btnSubmit" class="btn btn-info margin-r-5" />
                 
                 <span></span>
                 <span class="pull-right"><a data-toggle="modal" href="#myModal">Didn't recieve the OTP? Click here to resend.</a></span>
